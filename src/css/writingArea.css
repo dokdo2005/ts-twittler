@@ -1,0 +1,44 @@
+.writingArea {
+  padding: 5px;
+}
+
+.inputArea {
+  display: flex;
+  padding: 5px;
+}
+
+.inputLabel {
+  flex: 1;
+}
+
+.inputBox {
+  flex: 6;
+}
+
+.userComment {
+  width: 100%;
+}
+
+.buttonArea {
+  display: flex;
+}
+
+.submitBtn,
+.reloadBtn {
+  flex: 1;
+}
+
+.submitBtn {
+  text-align: start;
+}
+
+.reloadBtn {
+  text-align: end;
+}
+
+.submitBtn > button,
+.reloadBtn > button {
+  width: 200px;
+  height: 50px;
+  font-size: 1.3em;
+}
