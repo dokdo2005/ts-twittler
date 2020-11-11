@@ -1,0 +1,8 @@
+[
+  { "userName": "홍길동", "userMsg": "안녕하세요 여러분", "createdAt": "2020-11-10 17:50:30" },
+  { "userName": "김철수", "userMsg": "오늘 날씨가 정말 좋네요", "createdAt": "2020-11-10 18:30:07" },
+  { "userName": "김코딩", "userMsg": "타입스크립트 어떤가요?", "createdAt": "2020-11-10 19:50:10" },
+  { "userName": "최새벽", "userMsg": "역시 새벽 감성은 아름답군요", "createdAt": "2020-11-11 04:30:12" },
+  { "userName": "박아침", "userMsg": "굿모닝 여러분", "createdAt": "2020-11-11 09:10:20" },
+  { "userName": "박버그", "userMsg": "버그는 프로그래머에게 좋지 않은 영향을 줍니다", "createdAt": "2020-11-11 21:12:52" }
+]
