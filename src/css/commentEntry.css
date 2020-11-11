@@ -1,0 +1,33 @@
+.commentEntry {
+  padding: 5px;
+}
+
+.tweetBox {
+  list-style: none;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.tweetHeader {
+  display: flex;
+  padding: 10px;
+}
+
+.tweetAuthor,
+.tweetTimestamp {
+  flex: 1;
+}
+
+.tweetAuthor {
+  text-align: start;
+  font-weight: bold;
+}
+
+.tweetTimestamp {
+  text-align: end;
+}
+
+.tweetContent {
+  padding: 10px;
+}
