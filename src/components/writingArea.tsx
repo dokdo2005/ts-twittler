@@ -13,7 +13,8 @@ export default function WritingArea() {
                 <span className="inputBox"><textarea className="userComment"></textarea></span>
             </div>
             <div className="buttonArea">
-                <span className="submitBtn"><button type="button">Tweet!</button></span>
+                <span className="submitBtn"><button type="submit">Tweet!</button></span>
+                <span className="rewriteBtn"><button type="reset">Write Again</button></span>
                 <span className="reloadBtn"><button type="button">Check New Tweet</button></span>
             </div>
         </div>

@@ -24,6 +24,7 @@
 }
 
 .submitBtn,
+.rewriteBtn,
 .reloadBtn {
   flex: 1;
 }
@@ -32,11 +33,16 @@
   text-align: start;
 }
 
+.rewriteBtn {
+  text-align: center;
+}
+
 .reloadBtn {
   text-align: end;
 }
 
 .submitBtn > button,
+.rewriteBtn > button,
 .reloadBtn > button {
   width: 200px;
   height: 50px;
