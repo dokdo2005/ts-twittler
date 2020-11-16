@@ -1,36 +1,22 @@
 import React from 'react';
 import '../css/commentEntry.css';
 
-export default function CommentEntry() {
+interface userMsgEntry {
+    msgIdx: number;
+    userName: string;
+    userMsg : string;
+    createdAt: string
+}
+
+export default function CommentEntry({msgEntry}: {msgEntry: userMsgEntry}) {
     return (
         <div className="commentEntry">
             <li className="tweetBox">
                 <div className="tweetHeader">
-                    <span className="tweetAuthor">홍길동</span>
-                    <span className="tweetTimestamp">2020-11-11 17:50:30</span>
+                    <span className="tweetAuthor">{msgEntry.userName}</span>
+                    <span className="tweetTimestamp">{msgEntry.createdAt}</span>
                 </div>
-                <div className="tweetContent">Hello World!</div>
-            </li>
-            <li className="tweetBox">
-                <div className="tweetHeader">
-                    <span className="tweetAuthor">홍길동</span>
-                    <span className="tweetTimestamp">2020-11-11 17:50:30</span>
-                </div>
-                <div className="tweetContent">Hello World!</div>
-            </li>
-            <li className="tweetBox">
-                <div className="tweetHeader">
-                    <span className="tweetAuthor">홍길동</span>
-                    <span className="tweetTimestamp">2020-11-11 17:50:30</span>
-                </div>
-                <div className="tweetContent">Hello World!</div>
-            </li>
-            <li className="tweetBox">
-                <div className="tweetHeader">
-                    <span className="tweetAuthor">홍길동</span>
-                    <span className="tweetTimestamp">2020-11-11 17:50:30</span>
-                </div>
-                <div className="tweetContent">Hello World!</div>
+                <div className="tweetContent">{msgEntry.userMsg}</div>
             </li>
         </div>
     )
