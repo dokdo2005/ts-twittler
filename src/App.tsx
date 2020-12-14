@@ -28,7 +28,7 @@ function App() {
      leadingZeros(date.getSeconds(), 2);
     return stamp;
   };
-  const leadingZeros = (n: number, digits: number) => {
+  const leadingZeros = (n: number, digits: number): string => {
     let zero = '';
     let newNumber = String(n);
     if (newNumber.length < digits) {
